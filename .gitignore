@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*/.DS_Store
+.hg
+.git
+.idea
+.vscode/
+
+# Add this line:
+.env 
+
+# You might also ignore chroma_db if rebuilding on startup
+chroma_db/
